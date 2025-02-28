@@ -1,0 +1,14 @@
+SUMMARY OF RESULTS
+==================================================
+
+Integrated autocorrelation times:
+----------------------------------------
+Observable      HMC        GAN+HMC    Speedup   
+----------------------------------------
+magnetization   0.51       4.88       0.10      x
+energy          0.78       6.16       0.13      x
+susceptibility  0.96       5.96       0.16      x
+binder          0.52       2.85       0.18      x
+
+Conclusion:
+The GAN-based overrelaxation method achieves an average speedup of 0.14x compared to standard HMC for the 2D scalar φ4 theory with L=32, κ=0.21, λ=0.022.
